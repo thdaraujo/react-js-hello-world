@@ -23,6 +23,22 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+gem 'react-rails', github: 'reactjs/react-rails'
+gem 'sprockets-coffee-react'
+gem "haml-rails"
+gem 'pg'
+gem 'pg_search'
+gem 'bourbon'
+gem 'neat'
+gem 'bitters'
+gem 'faker'
+gem "active_model_serializers", github: 'rails-api/active_model_serializers'
+gem 'annotate', github: 'ctran/annotate_models'
+gem 'font-awesome-rails'
+gem 'nprogress-rails', github: 'caarlos0/nprogress-rails'
+gem 'momentjs-rails', github: 'derekprior/momentjs-rails'
+gem "js-routes", github: 'railsware/js-routes'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -41,8 +57,4 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
-
-  gem 'react-rails', github: 'reactjs/react-rails'
-  gem 'sprockets-coffee-react'
-
 end
